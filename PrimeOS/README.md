@@ -20,3 +20,7 @@
 *   `run.c`  (Fake /etc/init.d/run for unencrypted **p** **i** **u** **n** **x** files)
 *   `old_nvidia.txt` (Old Nvidia Cards on PrimeOS that will load 173 version of the driver)
 *   `old_nvidia.bin` (Old Nvidia Cards on PrimeOS that will load 173 version of the driver. Binary file with every Short Int (2 bytes LE) as PID)
+*   `cramfs` (Modified version of cramfs to work with PrimeOS - Yeah, **Andamiro violated the GPL** by changing the kernel source code and shipping a binary without concent)
+*   `uncorrupt.c` (Uncorrupt tools to fix the cramfs files)
+*   `gethdid.c` (Small tool to grab the HDDKEY that is used for bootloader encryption)
+*   `decexec.py` (Tool to decrypt the **piu** executable on PrimeOS)
